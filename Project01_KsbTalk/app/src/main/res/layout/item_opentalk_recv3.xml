@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="320dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgv_profile"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_img1" />
+
+        <TextView
+            android:id="@+id/tv_chat_title"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="히로아카"
+            android:textColor="@color/main_color"
+            android:textSize="13dp" />
+        </FrameLayout>
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_img1" />
+
+                <TextView
+                    android:id="@+id/tv_chat_title1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="다양한 타장르 수다방!!"
+                    android:textColor="@color/main_color"
+                    android:textSize="13dp" />
+                <TextView
+                    android:id="@+id/tv_time1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1시간전"
+                    android:textColor="@color/main_color"
+                    android:textSize="10dp" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_img1" />
+
+                <TextView
+                    android:id="@+id/tv_chat_title2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="다양한 타장르 수다방!!"
+                    android:textColor="@color/main_color"
+                    android:textSize="13dp" />
+                <TextView
+                    android:id="@+id/tv_time2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1시간전"
+                    android:textColor="@color/main_color"
+                    android:textSize="10dp" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_img1" />
+
+                <TextView
+                    android:id="@+id/tv_chat_title3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="다양한 타장르 수다방!!"
+                    android:textColor="@color/main_color"
+                    android:textSize="13dp" />
+                <TextView
+                    android:id="@+id/tv_time3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1시간전"
+                    android:textColor="@color/main_color"
+                    android:textSize="10dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
